@@ -195,6 +195,16 @@ body {
 .artikel-pandemi {
     margin-top: -15px !important;
 }
+.text-muted{
+    background-color: #d4f3ef;
+    font-size: 15px;
+    height: 5rem;
+    width: 8rem;
+
+}
+.skim{
+    margin-right: 100px;
+}
 @media (max-width: 992px) {
     .wrapper {
         width:100%;
