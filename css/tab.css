@@ -1,0 +1,115 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+  background-color: rgb(13,77,69);
+  background-image: linear-gradient(175deg, rgba(13,77,69,1) 0%, rgba(19,122,109,1) 100%);
+}
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+  color: white !important;
+}
+.nav {
+  background-color: #e4e3e3;
+}
+
+/* BreadCrumb */
+.breadcrumb {
+  margin-top: 60px;
+  background-color: rgb(13,77,69);
+  background-image: linear-gradient(175deg, rgba(13,77,69,1) 0%, rgba(19,122,109,1) 100%);
+}
+.breadcrumb-item a {
+  color: white !important;
+}
+.active{
+  color: white !important;
+}
+/*Section*/
+.section {
+  background-color: whitesmoke;
+  margin: 5px 25px 50px;
+}
+
+/* Card Sejarah */
+.cari {
+  z-index: 0;
+}
+.tx-sejarah {
+  color: #515165;
+}
+.tx-judul {
+  font-size: 30px;
+  color: #0d4d45 ;
+}
+.tx-side {
+  font-size: 20px;
+  color: #0d4d45 ;
+}
+
+.container a  {
+  padding: 10px 80px;
+  color: rgba(22, 20, 20, 0.664);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.innerContent {
+  margin: 5px 2px;
+  padding: 50px 0px;
+}
+.innerContent p {
+  text-align: left;
+  color: black;
+}
+.container ul {
+  position: relative;
+}
+.container .nav-link {
+  position: relative;
+  z-index: 99999;
+}
+.panel {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13,77,69, 0.788);
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 0;
+  box-shadow: 2px 5px 20px rgba(13, 75, 65, 0.479);
+}
+.active {
+  color: #ffe000 !important;
+}
+.wilayah {
+  color: black;
+  text-align: left;
+}
+
+/* Footer */
+.id-kantor {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: white;
+}
+.footer {
+  background-color: rgb(13,77,69);
+  background-image: linear-gradient(175deg, rgba(13,77,69,1) 0%, rgba(19,122,109,1) 100%);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+.footer-copyright {
+  background-color: rgb(13,77,69);
+  background-image: linear-gradient(175deg, rgba(13,77,69,1) 0%, rgba(19,122,109,1) 100%);
+  color: white;
+}
+.text-uppercase {
+  margin-top: 30px;
+}
+

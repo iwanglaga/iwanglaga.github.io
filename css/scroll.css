@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+#back-to-the-top {
+    z-index: 1;
+    display: none;
+    position: fixed;
+    bottom: 28px;
+    right: 20px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: #F1C025;
+    color: rgb(13,77,69);
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #F1C025;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+#back-to-the-top:hover, #back-to-the-top:focus {
+  background-color: rgb(13,77,69);
+  color: #F1C025;
+  border: 3px solid rgb(13,77,69);
+}
+
+.btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+/* ZoomIn *
+@keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* FadeInUp */
+@keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btnExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+/* ZoomOut *
+@keyframes btnExit {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+}
+
+/* FadeOutDown */
+@keyframes btnExit {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+}
+@media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+/*UNTUK ANIMATE DROPDOWN*/
+@keyframes slideIn {
+    0% {
+      transform: translate3d(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translate3d(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translate3d(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
