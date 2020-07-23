@@ -53,6 +53,17 @@ body {
   color: #0d4d45 ;
 }
 
+/* Pimpinan */
+.pimpinan img {
+  width: 65%;
+  height: 85%;
+  margin-top: 20px;
+}
+.card-body h4, h5 {
+  color: rgb(13,77,69);
+  font-family: viga;
+}
+
 .container a  {
   padding: 10px 80px;
   color: rgba(22, 20, 20, 0.664);
