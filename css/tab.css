@@ -59,7 +59,7 @@ body {
   height: 85%;
   margin-top: 20px;
 }
-.card-body h4, h5 {
+.card-body h1, h2, h4, h5 {
   color: rgb(13,77,69);
   font-family: viga;
 }
