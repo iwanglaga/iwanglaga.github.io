@@ -201,6 +201,77 @@ body {
 .skim{
     margin-right: 100px;
 }
+.font{
+    color: grey;
+}
+
+.kotak-pesan{
+    height: 18rem;
+}
+.form-control-pesan{
+    height: 10rem;
+    width: 31.5rem;
+    margin-left: 5px;
+}
+.btn-kirim-pesan{
+    margin-top: 20px;
+    margin-left:600px;
+    height: 20rem;
+}
+/*content zonaintegrasi*/
+
+.content{
+    margin : 40px 0;
+}
+
+.content .carousel .card{
+    width: 100%;
+    box-shadow: none;
+}
+
+.box-pembatas{
+    margin: 10px 5%;
+    height: 10px;
+    width: 90%;
+    background-color: #0d4d45;
+}
+
+.card-img-top{
+    margin: 0 7%;
+    margin-top: 10px;
+    width: 86%;
+}
+.card{
+    background-color: white;
+    border: none;
+}
+.selayangpandang{
+    font-family: brusher;
+    text-align: justify;
+}
+.mari{
+    font-family: agency fb;
+    color: white;
+}
+.tengah{
+    margin:100px;
+}
+.jumbotron{
+    background-color: #282828;
+    text-align: justify;
+    color: white;
+    font-family: agency fb;
+}
+.lead-content{
+    font-family: roboto;
+    color: #0d4d45;
+}
+.card-text-content{
+    font-family: roboto;
+    color: #0d4d45;
+    text-align: justify;
+}
+
 @media (max-width: 992px) {
     .wrapper {
         width:100%;
