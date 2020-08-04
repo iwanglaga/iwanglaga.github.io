@@ -57,63 +57,64 @@
     <li class="breadcrumb-item active" aria-current="page">Formulir Pengaduan</li>
   </ol>
 
-
-<div class="alert alert-info alert-admin col-md-8 ml-5" >
-  <div class = "row"> 
-    <div class="col-md-12">
- <h4 align="center">Formulir Pengaduan</h4> 
-<p>
-Masukkan kritik, saran atau feedback yang akan sangat bermanfaat untuk meningkatkan kualitas pelayanan Imigrasi Malang kepada masyarakat.</p>
-  <div class="row">
-    <div class="form-group">
-      <div class="col-md-14">
-<label>Nama </label>
-<input type="text" value data-msg-required="Tulis Nama Anda" maxlength ="100" class="form-control"name="nama" id="name" required aria-required="true">
-        </div>
-        <div class="col-md-14">
-<label>Alamat</label>
-<input type="text" value data-msg-required="Tulis Alamat Anda" maxlength ="100" class="form-control"name="alamat" id="alamat" required aria-required="true">
-        </div>
+<div class="row justify-content-center">
+  <div class="col-md-8 form-aduan">
+    <div class="card-shadow mb-3 shadow">
+      <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold tx-judul"><i>Form Feedback</i></h6>
+      </div>
+      <div class="card-body">
+        <p>Masukkan kritik, saran atau feedback yang akan sangat bermanfaat untuk meningkatkan kualitas pelayanan Imigrasi Malang kepada masyarakat.</p>
+        <div class="row mb-3">
+          <div class="col-sm-5">
+            <label for="">Nama Depan</label>
+            <input type="text" value data-msg-required="Tulis Nama Anda" maxlength ="100" class="form-control"name="nama" id="name" required aria-required="true" placeholder="Masukkan nama depan anda">
           </div>
-
-  <div class="row ml-5">
-    <div class="form-group">
-      <div class="col-md-12">
-<label>Nomor Handphone</label>
-<input type="text" value data-msg-required="Tulis Nomor Handphone Anda" maxlength ="100" class="form-control"name="nomor" id="nomor" required aria-required="true">
+          <div class="col-sm-5">
+            <label for="">Nama Belakang</label>
+            <input type="text" value data-msg-required="Tulis Nama Anda" maxlength ="100" class="form-control"name="nama" id="name" required aria-required="true" placeholder="Masukkan nama belakang anda">
+          </div>
         </div>
-<div class="col-md-12">
-<label>Alamat E-mail</label>
-<input type="text" value data-msg-required="Ketik Alamat E-mail Anda" maxlength ="100" class="form-control"name="nomor" id="nomor" required aria-required="true">
+        <div class="row mb-3">
+          <div class="col-sm-5">
+            <label for="">Nomor Telepon</label>
+            <input type="text" value data-msg-required="Tulis Nama Anda" maxlength ="100" class="form-control"name="nama" id="name" required aria-required="true" placeholder="Masukkan nomor anda">
+          </div>
+          <div class="col-sm-5">
+            <label for="">E-mail</label>
+            <input type="email" value data-msg-required="Tulis Nama Anda" maxlength ="100" class="form-control"name="nama" id="name" required aria-required="true" placeholder="Masukkan email anda">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-10">
+            <label for="">Alamat</label>
+            <input type="text" value data-msg-required="Tulis Nama Anda" maxlength ="100" class="form-control"name="nama" id="name" required aria-required="true" placeholder="Masukkan alamat anda">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-10">
+            <label for="">Isi Pesan</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Ketik pesan anda"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <input type="submit" id="contactFormSubmit" value="Kirim Pesan" class="btn btn-success btn-lg pull-right" data-loading-text="Loading...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 hub shadow mb-5">
+    <div class="card-body">
+      <a href="https://www.lapor.go.id/" class="stretched-link"></a>
+      <h5>Laporkan secara langsung ke instansi pemerintahan melalui</h5>
+      <br>
+      <h3>Lapor.go.id</h3>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-
-<div class="col-md-8">
-<label class="md-9">Topik</label>
-<div class="col-md-15 ml-2">
-<input type="text" value data-msg-required="Tulis Kritik, Saran atau Pengajuan" maxlength ="100" class="form-control"name="topik" id="topik" required aria-required="true">
-</div>
-</div>
-
-<div class="kotak-pesan col-md-12">
-
-    <label for="exampleFormControlTextarea1">Isi Pesan </label>
-    <br>
-    <textarea class="form-control-pesan" id="exampleFormControlTextarea1" rows="4"></textarea>
-
-<div class="btn-kirim-pesan">
-  <input type="submit" id="contactFormSubmit" value="Kirim Pesan" class="btn btn-primary btn-lg pull-right" data-loading-text="Loading...">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
+</section>
  <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
       <div class="container-fluid text-center text-md-left footer">
