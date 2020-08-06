@@ -21,6 +21,8 @@
     <!--Owl Carousel-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <!-- My CSS -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/scroll.css" rel="stylesheet" />
@@ -30,6 +32,13 @@
     <title>Imigrasi Malang</title>
   </head>
   <body>
+    <!--Modal-->
+    <div id="myModal" class="modal fade animate__animated animate__lightSpeedInRight" role="dialog">
+      <div class="modal-dialog modal-xl">
+        <img src="img/slide/jb-slide2.png" style="width: 100%; height: 35rem;" data-dismiss="modal">
+      </div>
+    </div>
+    <!--akhir modal-->
     <button id="back-to-the-top" class="<button id="back-to-the-top">
       <i class="fas fa-arrow-up"></i>
     </button>
@@ -67,7 +76,7 @@
     <!--Akhir Jumbotron-->
     <!-- Container -->
     <section class="section">
-      <div class="container">
+      <div class="container animate__animated animate__fadeInUp animate__delay-2s">
         <!-- Info Panel Navigasi -->
         <div class="row justify-content-center">
           <div class="col-10 info-panel">
@@ -150,7 +159,7 @@
           </div>
         </div>
       </div>
-      <div class="container mt-4">
+      <div class="container mt-4 animate__animated animate__fadeInUp animate__delay-3s">
         <div class="row baris1">
           <div class="col-sm">
             <div id="carouselExampleIndicators" class="carousel slide mb-6 mt-3 carousel-info " data-ride="carousel" style="height: 425px;">
@@ -300,6 +309,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <!--js modal-->
+      <script>$('#myModal').modal('show');</script>
   </body>
 </html>
  

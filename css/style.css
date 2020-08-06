@@ -1,5 +1,7 @@
 body {
     background-color: #e8e8e8;
+    margin: 0;
+    padding: 0;
 }
 /* Navbar */
 .navbar {
@@ -153,7 +155,7 @@ body {
     border-radius: 5px;
     background-color: white;
     margin-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
 }
 
 /* Baris */
@@ -292,12 +294,6 @@ body {
 }
 .tengah{
     margin:100px;
-}
-.jumbotron{
-    background-color: #282828;
-    text-align: justify;
-    color: white;
-    font-family: agency fb;
 }
 .lead-content{
     font-family: roboto;
