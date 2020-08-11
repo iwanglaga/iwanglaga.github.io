@@ -401,6 +401,11 @@ body {
     .navbar-brand {
         font-size: 15px !important;
     }
+    /*Section*/
+    .section {
+        background-color: #ffffff;
+        margin: 5px 2px 40px;
+    }
     /*Media Youtube & Twitter*/
     .twitter {
         height: 300px;
