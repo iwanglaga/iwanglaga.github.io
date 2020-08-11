@@ -265,6 +265,7 @@ body {
     opacity: 0.7;
     transition: 0.3s; 
 }
+
 /*content zonaintegrasi*/
 .content{
     margin : 40px 0;
@@ -291,29 +292,19 @@ body {
     background-color: white;
     border: none;
 }
-.selayangpandang{
-    font-family: brusher;
-    text-align: justify;
-}
-.mari{
-    font-family: agency fb;
-    color: white;
-}
-.tengah{
-    margin:100px;
-}
-.lead-content{
-    font-family: roboto;
-    color: #0d4d45;
-}
 .card-text-content{
     font-family: roboto;
     color: #0d4d45;
     text-align: justify;
 }
+.card-title-content{
+    color: #0d4d45;
+    font-family: pacifico;
+}
 /*Antrian*/
 .antri {
     margin-top: 30px;
+    z-index: 0;
 }
 .order-card {
     color: #fff;
@@ -385,6 +376,52 @@ body {
     height: 600px;
     overflow-y: scroll;
 }
+    /*Tab Produk Hukum*/
+    .container-ph{
+        width: 1000px;
+        margin: auto;
+    }
+
+    .tab-ph {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 30%;
+        height: 690px;
+        font-family: roboto;
+    }
+    .tab-ph button {
+        display: block;
+        background-color: inherit;
+        color: black;
+        padding: 10px 15px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 17px;
+        font-family: roboto;
+    }
+
+    .tab-ph button:hover {
+        background-color: #ddd;
+    }
+
+    .tab-ph button.active {
+        background-color: #ccc;
+    }
+
+    .tabcontent-ph {
+        float: left;
+        padding: 0px 12px;
+        width: 70%;
+        border-left: none;
+        height: 700px;
+        font-family: roboto;
+        font-size: 10px;
+    }
 /*Pelayanan WNA*/
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -405,6 +442,21 @@ body {
     .section {
         background-color: #ffffff;
         margin: 5px 2px 40px;
+    }
+    /*Mini Carousel*/
+    .mini-carousel {
+        width: 325px;
+        height: 300px;
+        margin-left: 42px;
+        margin-bottom: -80px;
+    }
+    /*Antrian*/
+    .antri {
+        width: 300px;
+        height: 200px;
+    }
+    .no-antrian {
+
     }
     /*Media Youtube & Twitter*/
     .twitter {
