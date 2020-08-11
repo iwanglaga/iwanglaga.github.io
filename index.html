@@ -44,17 +44,14 @@
     </button>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <img src="img/download.png" alt="Employee" class="float-left mr-2 ml-3" width="50px" height="50px"/>
-      <img src="img/imigrasi-logo.png" alt="Employee" class="float-left mr-3 ml-2" width="50px" height="50px"/>
-      <a class="navbar-brand" href="#">Imigrasi Malang</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="logo-instansi">
+        <img src="img/download.png" alt="Employee" class="float-left mr-2 ml-3 logo-kemenkumham" width="50px" height="50px"/>
+        <img src="img/imigrasi-logo.png" alt="Employee" class="float-left mr-3 ml-2 logo-imigrasi" width="50px" height="50px"/>
+        <a class="navbar-brand" href="#">Imigrasi Malang</a>
+      </div>
         <div class="navbar-nav ml-auto">
           <a class="nav-item btn btn-success tombol" href="contact.html">Hubungi Kami</a>
         </div>
-      </div>
     </nav>
     <!-- Akhir Navbar -->
     <!-- Jumbotron Carousel-->
@@ -76,10 +73,10 @@
     <!--Akhir Jumbotron-->
     <!-- Container -->
     <section class="section">
-      <div class="container">
+      <div class="container-fluid informasi">
         <!-- Info Panel Navigasi -->
         <div class="row justify-content-center">
-          <div class="col-10 info-panel">
+          <div class="col-lg-10 col-md-10 col-sm-8 info-panel">
             <nav
               class="navbar nav-bawah navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#"></a>
@@ -160,18 +157,16 @@
           </div>
         </div>
       </div>
-      <div class="container mt-4">
+      <div class="container-fluid mt-4" style="height: 85%; width: 85%;">
         <div class="row baris1">
           <div class="col-sm-6">
-            <div id="carouselExampleIndicators" class="carousel slide mb-6 mt-3 carousel-info " data-ride="carousel" style="height: 425px;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
               </ol>
-              <div class="carousel-inner" style="height: 30rem;">
+              <div class="carousel-inner">
                 <div class="carousel-item active">
                   <a href="https://survei.balitbangham.go.id/layanan/9b719ace-ba9c-11ea-b566-acde48001122/c28db1c0-df8b-11e9-9288-313135383136/3e9dbc9e-b776-11e9-b8b2-313834333239/32cee6ba-e65e-11e9-b1c7-313131393436"><img class="d-block w-100" src="img/Banner-info/banner1-gede.png" alt="First slide"/></a>
                 </div>
@@ -181,27 +176,19 @@
                 <div class="carousel-item">
                   <a href="https://izintinggal-online.imigrasi.go.id/"><img class="d-block w-100" src="img/Banner-info/banner-3.png" alt="Third slide"/></a>
                 </div>
-                <div class="carousel-item">
-                  <a href=""><img class="d-block w-100" src="img/Banner-info/banner-4.png" alt="Fourth slide"/></a>
-                </div>
-                <div class="carousel-item">
-                  <a href=""><img class="d-block w-100" src="img/Banner-info/banner-5.png" alt="Fifth slide"/></a>
-                </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"
-                ></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true">
-                </span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
           </div>
         <!--Awal Antri-->
-          <div class="col-sm-6 antri">
+          <div class="col-sm-6 antri ">
             <h2 class="mb-3 d-flex justify-content-center" style="color: #0d4d45;">Antrian Hari Ini</h2>
             <div id="antri" class="owl-carousel owl-theme owl-antri">
               <div class="item" style="height: 15rem;">
@@ -412,7 +399,7 @@
       <div class="row mt-3 inov d-flex justify-content-center">
         <h2>Informasi Pelayanan Kami</h2>
       </div>
-      <div class="row mt-3 d-flex justify-content-center inovasi-kami">
+      <div class="row mt-3 d-flex justify-content-center inovasi-kami" style="height: 85%;">
         <div class="col-md-10">
           <div class="card shadow mb-4">
             <div class="card-body" style="height: 12.5rem;">
@@ -443,11 +430,11 @@
       <!-- Akhir Informasi Pelayanan -->
       <br>
       <!-- Media Youtube & Twitter -->
-      <div class="container-fluid">
-        <div class="row ml-5 d-flex justify-content-center">
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="row media-info">
           <div align="center" class="col-lg-6 col-md-6 col-sm-5 col-xs-12 mb-5">
-            <h2 class="mb-4">Youtube</h2>
-            <iframe class="youtube shadow" width="560" height="315" src="https://www.youtube.com/embed/vvNmaNtPWBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="mb-3 d-flex justify-content-center">Youtube</h2>
+            <iframe class="youtube embed-responsive embed-responsive-21by9 shadow" src="https://www.youtube.com/embed/vvNmaNtPWBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div align="center" class="col-md-6 col-md-6 col-sm-5 col-xs-12">
             <h2 class="mb-4">Twitter</h2>
@@ -534,7 +521,7 @@
         responsiveClass:true,
         responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         600:{

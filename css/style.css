@@ -50,7 +50,6 @@ body {
 }
 
 .carousel {
- margin-top: -75px;
  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
  border-radius: 12px;
  z-index: 0;
@@ -314,7 +313,7 @@ body {
 }
 /*Antrian*/
 .antri {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .order-card {
     color: #fff;
@@ -368,13 +367,15 @@ body {
 }
 /*Media Youtube & Twitter*/
 .twitter {
-    height: 400px;
-    width: 450px;
-    overflow: scroll;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+    overflow-y: scroll;
 }
 .youtube {
-    height: 400px !important;
-    width: 700px;
+    margin-right: 50px;
+    height: 350px !important;
+    width: 520px;
 }
 /*Pelayanan WNI*/
 .visa-terbatas1{
@@ -385,7 +386,69 @@ body {
     overflow-y: scroll;
 }
 /*Pelayanan WNA*/
-@media (max-width: 992px) {
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /*Navbar Atas*/ 
+    .logo-kemenkumham {
+        width: 25px;
+        height: 25px;
+    }
+    .logo-imigrasi {
+        width: 25px;
+        height: 25px;
+    }
+    .navbar-brand {
+        font-size: 15px !important;
+    }
+    /*Media Youtube & Twitter*/
+    .twitter {
+        height: 300px;
+        width: 260px;
+        overflow: scroll;
+        margin-left: 20px !important;
+    }
+    .youtube {
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 200px !important;
+        width: 360px;
+        justify-content: center;
+    }
+    .media-info h2 {
+        font-size: 25px;
+        font-family: viga;
+    }
+}
+/*Extra small devices (portrait phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*Navbar Atas*/ 
+    .logo-kemenkumham {
+        width: 35px;
+        height: 35px;
+    }
+    .logo-imigrasi {
+        width: 35px;
+        height: 35px;
+    }
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+    /*Media Youtube & Twitter*/
+    .twitter {
+        height: 300px;
+        width: 260px;
+        overflow: scroll;
+        margin-left: 20px !important;
+    }
+    .youtube {
+
+        margin-right: -30px !important;
+        height: 300px !important;
+        width: 460px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
     .wrapper {
         width:100%;
         z-index: 1; 
@@ -401,7 +464,7 @@ body {
     }
     .navbar-brand {
         font-family: Viga;
-        font-size: 20px;
+        font-size: 30px;
     }
     .nav-link {
         text-transform: uppercase;
@@ -431,12 +494,6 @@ body {
         padding: 0 !important;
     }
 
-    /* Carousel Kecil */
-    .carousel-info {
-        width: 60%;
-        height: 60%;
-        margin-left: 160px;
-    }
     /* Antrian */
     .baris-antri {
         width: 60%;
@@ -451,3 +508,23 @@ body {
         font-size: 35.5px !important;
     }
 }
+/*Large devices (desktops, less than 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*Media Youtube & Twitter*/
+    .twitter {
+        height: 300px;
+        width: 260px;
+        overflow: scroll;
+        margin-left: 20px !important;
+    }
+    .youtube {
+        margin-right: 30px !important;
+        height: 300px !important;
+        width: 460px;
+    }
+}
+/*Large devices (desktops, less than 1200px and up)*/
+@media (min-width: 1200px) {  
+
+}
+
