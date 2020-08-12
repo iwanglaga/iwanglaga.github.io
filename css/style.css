@@ -438,22 +438,11 @@ body {
     .navbar-brand {
         font-size: 15px !important;
     }
-    /*Section*/
-    .section {
-        background-color: #ffffff;
-        margin: 5px 2px 40px;
-    }
     /*Info panel*/
     .info-panel {
         margin-top: 40px;
     }
-    /*Mini Carousel*/
-    .mini-carousel {
-        width: 350px;
-        height: 300px;
-        margin-left: 48px;
-        margin-bottom: -80px;
-    }
+
     /*Antrian*/
     .antri {
         width: 300px;
@@ -554,7 +543,6 @@ body {
     .breadcrumb {
         margin-top: 20px;
     }
-
     .info-panel {
         box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
         margin-top:  20px;
