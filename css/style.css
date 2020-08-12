@@ -449,9 +449,9 @@ body {
     }
     /*Mini Carousel*/
     .mini-carousel {
-        width: 380px;
+        width: 350px;
         height: 300px;
-        margin-left: 28px;
+        margin-left: 48px;
         margin-bottom: -80px;
     }
     /*Antrian*/
