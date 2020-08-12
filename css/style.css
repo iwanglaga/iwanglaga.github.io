@@ -443,20 +443,27 @@ body {
         background-color: #ffffff;
         margin: 5px 2px 40px;
     }
+    /*Info panel*/
+    .info-panel {
+        margin-top: 40px;
+    }
     /*Mini Carousel*/
     .mini-carousel {
-        width: 325px;
+        width: 380px;
         height: 300px;
-        margin-left: 42px;
+        margin-left: 52px;
         margin-bottom: -80px;
     }
     /*Antrian*/
     .antri {
         width: 300px;
         height: 200px;
+        margin-top: 55px;
+        margin-left: 85px;
     }
-    .no-antrian {
-
+    .antri-shape {
+        height: 200px;
+        width: 150px;
     }
     /*Media Youtube & Twitter*/
     .twitter {
@@ -491,6 +498,11 @@ body {
     .navbar-brand {
         font-size: 20px !important;
     }
+    /*Info panel*/
+    .info-panel {
+        margin-top: 40px;
+        width: 200px;
+    }
     /*Media Youtube & Twitter*/
     .twitter {
         height: 300px;
@@ -499,7 +511,6 @@ body {
         margin-left: 20px !important;
     }
     .youtube {
-
         margin-right: -30px !important;
         height: 300px !important;
         width: 460px;
