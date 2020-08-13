@@ -196,7 +196,7 @@
             </div>
           </div>
         <!--Awal Antri-->
-          <div class="col-sm-6 antri ">
+          <div class="col-lg-6 col-md-6 col-sm-6 antri ">
             <h2 class="mb-3 d-flex justify-content-center" style="color: #0d4d45;">Antrian Hari Ini</h2>
             <div id="antri" class="owl-carousel owl-theme owl-antri">
               <div class="item" style="height: 15rem;">
@@ -405,7 +405,7 @@
       <br>
       <!-- Informasi Pelayanan -->
       <div class="row mt-3 inov d-flex justify-content-center">
-        <h2>Informasi Pelayanan Kami</h2>
+        <h2 style="margin-top: 100px;">Informasi Pelayanan Kami</h2>
       </div>
       <div class="row mt-3 d-flex justify-content-center inovasi-kami" style="height: 85%;">
         <div class="col-md-10">
@@ -497,11 +497,15 @@
         responsive:{
         0:{
             items:2,
-            nav:true
+            nav:false,
+            autoWidth: true,
+            center: true,
+            margin: 2
         },
-        600:{
-            items:2,
-            nav:false
+        575.98:{
+            items:3,
+            nav:false,
+
         },
         1000:{
             items:3,
@@ -529,12 +533,12 @@
         responsiveClass:true,
         responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         575.98:{
             items:2,
-            nav:false
+            nav:false,
         },
         1000:{
             items:5,
