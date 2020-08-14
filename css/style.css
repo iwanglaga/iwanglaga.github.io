@@ -21,6 +21,7 @@ html, body {
     text-transform: uppercase;
     margin-right: 25px;
     font-size: 12px;
+    font-family: viga;
 }
 
 .nav-link:hover::after {
@@ -218,20 +219,29 @@ html, body {
 .hub {
     margin-bottom: 450px !important;
     border-radius: 5px;
-    background-color:#d63447;
+    background: linear-gradient(45deg,#FF416C,#FF4B2B);
     opacity: 1;
 }
 .hub:hover {
     opacity: 0.7;
     transition: 0.3s;
 }
-.hub h3, h5 {
+.hub {
+    color: #323232;
+    font-family: viga;
+    height: 220px;
+}
+.aduan {
+    background: linear-gradient(45deg,#11998e,#38ef7d);
     color: white;
     font-family: viga;
 }
-/*Antrian WNI*/
-.wni {
-    
+.aduan:hover {
+    background: linear-gradient(45deg,#11998e,#38ef7d);
+    color: white;
+}
+.card-body p, label {
+    color: #323232;
 }
 /*Hubungi Kami*/
 .call h1, h3, h5 {
@@ -239,9 +249,11 @@ html, body {
     font-family: viga;
 }
 .email {
+    margin-left: 2px;
+    margin-right: 25px;
     height: 150px;
     border-radius: 5px;
-    background-color:#d63447;
+    background: linear-gradient(45deg,#FF416C,#FF4B2B);
     opacity: 1;
 }
 .email:hover {
@@ -249,9 +261,11 @@ html, body {
     transition: 0.3s;
 }
 .wassup {
-    height: 150px;
+    margin-left: 2px;
+    margin-right: 25px;
+    height: 200px;
     border-radius: 5px;
-    background-color:#25d366;
+    background: linear-gradient(45deg,#11998e,#38ef7d);
     opacity: 1;
 }
 .wassup:hover {
@@ -259,9 +273,11 @@ html, body {
     transition: 0.3s;
 }
 .telpon {
-    height: 150px;
+    margin-left: 2px;
+    margin-right: 25px;
+    height: 200px;
     border-radius: 5px;
-    background-color:#418bca;
+    background: linear-gradient(45deg,#0083B0,#00B4DB);
     opacity: 1;
 }
 .telpon:hover {
