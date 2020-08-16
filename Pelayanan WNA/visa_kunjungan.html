@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">  
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>    
     <!-- My CSS -->
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/scroll.css" rel="stylesheet">
@@ -29,32 +31,39 @@
     <button id="back-to-the-top" class="<button id="back-to-the-top"><i class="fas fa-arrow-up"></i></button>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light sticky">
   <img src="../img/download.png" alt="Employee" class="float-left mr-2 ml-3" width="50px" height="50px"/>
-  <img src="../img/imigrasi-logo.png" alt="Employee" class="float-left mr-3 ml-3" width="50px" height="px">
+  <img src="../img/imigrasi-logo.png" alt="Employee" class="float-left mr-3 ml-2" width="50px" height="50px"/>
   <a class="navbar-brand" href="#">Imigrasi Malang</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item btn btn-success tombol" href="contact.html">Hubungi Kami</a>
+          <a class="nav-item nav-link active" href="../index.html">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="../profil.html">Profil</a>
+            <a class="nav-item nav-link" href="#">Galeri</a>
+            <a class="nav-item nav-link" href="#">Informasi Publik</a>
+            <a class="nav-item nav-link" href="../faq.html">FAQ</a></div>
+          <a href="../contact.html" class="btn btn-hover cl-green" role="button" aria-pressed="true">Hubungi Kami</a>
         </div>
       </div>
-</nav>
+    </div>
+  </nav>
 <!-- Akhir Navbar --> 
 
 <section class="section"> 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="../index.html">Beranda</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="pelayanan_wna.html">Pelayanan WNA</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="../pelayanan_wna.html">Pelayanan WNA</a></li>
             <li class="breadcrumb-item active" aria-current="page">Visa Kunjungan</li>
         </ol> 
 
-    <div class="row mx-auto">
-        <div class="col-md-4 group-list mb-5">
-            <div class="list-group shadow ml-5">
+        <div class="row mx-auto d-flex justify-content-center">
+          <div class="col-lg-4 col-md-10 col-sm-10 group-list mb-5">
+            <div class="list-group shadow">
             <a href="#visa-kunjungan1" class="list-group-item list-group-item-action" data-toggle="tab">Visa kunjungan 1 (satu) kali perjalanan - B211A</a>
             <a href="#visa-kunjungan2" class="list-group-item list-group-item-action" data-toggle="tab">Visa kunjungan 1 (satu) kali perjalanan - B211B</a>
             <a href="#visa-kunjungan3" class="list-group-item list-group-item-action" data-toggle="tab">Visa kunjungan 1 (satu) kali perjalanan - B211C</a>
@@ -63,9 +72,9 @@
         </div>
 
 
-    <div class="col-lg-6 col-md-4 col-sm-10 w-50">
+    <div class="col-lg-7 col-md-10 col-sm-10">
         <div class="tab-content flex-center">
-            <div class="tab-pane ml-5 show" id="visa-kunjungan1">
+            <div class="tab-pane animate__animated animate__fadeInUp animate__delay-0.2s show" id="visa-kunjungan1">
                 <div class="card shadow mb-4">
                     <div class="card-header is-on py-3" style="width: 30,5rem; height: 5rem;">
                       <h6 class="m-0 mt-2 font-weight-bold text-white text-center">Visa kunjungan 1 (satu) kali perjalanan - B211A</h6>
@@ -83,7 +92,7 @@
                     </div>
                   </div>
             </div>
-            <div class="tab-pane ml-5 show" id="visa-kunjungan2">
+            <div class="tab-pane animate__animated animate__fadeInUp animate__delay-0.2s show" id="visa-kunjungan2">
                 <div class="card shadow mb-4">
                     <div class="card-header is-on py-3" style="width: 30,5rem; height: 5rem;">
                       <h6 class="m-0 mt-2 font-weight-bold text-white text-center">Visa kunjungan 1 (satu) kali perjalanan - B211B</h6>
@@ -101,7 +110,7 @@
                     </div>
                   </div>
             </div>
-            <div class="tab-pane ml-5 show" id="visa-kunjungan3">
+            <div class="tab-pane animate__animated animate__fadeInUp animate__delay-0.2s show" id="visa-kunjungan3">
                 <div class="card shadow mb-4">
                     <div class="card-header is-on py-3" style="width: 30,5rem; height: 5rem;">
                       <h6 class="m-0 mt-2 font-weight-bold text-white text-center">Visa kunjungan 1 (satu) kali perjalanan - B211C</h6>
@@ -125,7 +134,7 @@
                     </div>
                   </div>
             </div>
-            <div class="tab-pane ml-5 show" id="visa-kunjungan4">
+            <div class="tab-pane animate__animated animate__fadeInUp animate__delay-0.2s show" id="visa-kunjungan4">
                 <div class="card shadow mb-4">
                     <div class="card-header is-on py-3" style="width: 30,5rem; height: 5rem;">
                       <h6 class="m-0 mt-2 font-weight-bold text-white text-center">MULTIPLE ENTRY VISA - D211</h6>

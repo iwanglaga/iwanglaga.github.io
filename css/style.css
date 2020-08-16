@@ -1,4 +1,6 @@
+
 html, body {
+    scroll-behavior: smooth;
     background-color: #e8e8e8;
     width: 100%;
     height: 100%;
@@ -6,6 +8,15 @@ html, body {
     padding: 0px;
     overflow-x: hidden;
 }
+.h-dark h1 {
+    font-family: viga;
+    color: #323232;
+}
+.list-group-item[aria-expanded="true"]{ 
+    background-color: rgb(13,77,69);
+    background-image: linear-gradient(175deg, rgba(13,77,69,1) 0%, rgba(19,122,109,1) 100%);
+}
+
 /* Navbar */
 .navbar {
     position: relative;
@@ -20,7 +31,7 @@ html, body {
 .nav-link {
     text-transform: uppercase;
     margin-right: 25px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: viga;
 }
 
@@ -44,7 +55,37 @@ html, body {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
+.btn-hover {
+    width: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: viga;
+    color: #fff;
+    cursor: pointer;
+    margin: 3px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 5px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:hover {
+    color: #fff;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover.cl-green {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
   
 .dropdown-toggle {
     position: relative;
@@ -248,10 +289,19 @@ html, body {
     color: white;
     font-family: viga;
 }
+.card-body .icon {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 15px;
+    z-index: 0;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.15);
+}
 .email {
     margin-left: 2px;
     margin-right: 25px;
-    height: 150px;
+    height: 200px;
     border-radius: 5px;
     background: linear-gradient(45deg,#FF416C,#FF4B2B);
     opacity: 1;
@@ -281,6 +331,43 @@ html, body {
     opacity: 1;
 }
 .telpon:hover {
+    opacity: 0.7;
+    transition: 0.3s; 
+}
+
+.fb {
+    margin-left: 2px;
+    margin-right: 25px;
+    height: 200px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#396afc,#2948ff);
+    opacity: 1;
+}
+.fb:hover {
+    opacity: 0.7;
+    transition: 0.3s; 
+}
+.tweet {
+    margin-left: 2px;
+    margin-right: 25px;
+    height: 200px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#00B4DB,#0083B0);
+    opacity: 1;
+}
+.tweet:hover {
+    opacity: 0.7;
+    transition: 0.3s; 
+}
+.ytube {
+    margin-left: 2px;
+    margin-right: 25px;
+    height: 200px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#F00000,#DC281E);
+    opacity: 1;
+}
+.ytube:hover {
     opacity: 0.7;
     transition: 0.3s; 
 }
@@ -379,7 +466,7 @@ html, body {
 .twitter {
     height: 350px;
     width: 400px;
-    margin-left: 4rem;
+
     overflow-y: scroll;
 }
 .youtube {
