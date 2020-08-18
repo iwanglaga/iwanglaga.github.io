@@ -29,19 +29,26 @@
     <button id="back-to-the-top" class="<button id="back-to-the-top"><i class="fas fa-arrow-up"></i></button>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light sticky">
   <img src="../img/download.png" alt="Employee" class="float-left mr-2 ml-3" width="50px" height="50px"/>
-  <img src="../img/imigrasi-logo.png" alt="Employee" class="float-left mr-3 ml-3" width="50px" height="px">
+  <img src="../img/imigrasi-logo.png" alt="Employee" class="float-left mr-3 ml-2" width="50px" height="50px"/>
   <a class="navbar-brand" href="#">Imigrasi Malang</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item btn btn-success tombol" href="../contact.html">Hubungi Kami</a>
+          <a class="nav-item nav-link active" href="../index.html">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="../profil.html">Profil</a>
+            <a class="nav-item nav-link" href="#">Galeri</a>
+            <a class="nav-item nav-link" href="#">Informasi Publik</a>
+            <a class="nav-item nav-link" href="../faq.html">FAQ</a></div>
+          <a href="../contact.html" class="btn btn-hover cl-green" role="button" aria-pressed="true">Hubungi Kami</a>
         </div>
       </div>
-</nav>
+    </div>
+  </nav>
 <!-- Akhir Navbar --> 
 
 
@@ -53,18 +60,29 @@
     <li class="breadcrumb-item active" aria-current="page">Persyaratan RE-ENTRY PERMIT Tidak Kembali</li>
   </ol>
 
-<h4 align="center">Syarat Permohonan RE-ENTRY PERMIT Tidak Kembali</h4>
-<ol type="1">
-  <li>Asli dan fotokopi paspor kebangsaan yang masih berlaku</li>
-  <li>Asli dan fotokopi KITAS</li>
-  <li>Asli dan fotokopi surat sponsor dan jaminan (ditandatangani direksi)</li>
-  <li>Asli dan fotokopi Notifikasi Perintah Pembayaran (bagi pekerja asing)</li>
-  <li>Surat kuasa bagi yang diberi kuasa</li>
-  <li>Fotokopi E-KTP sponsor</li>
-  <li>Fotokopi E-KTP pihak yang diberi kuasa</li>
-  <li>Fotokopi cap keberangkatan</li>
-  <li>Return Tiket</li>
-</ol>
+
+<div class="row mb-3 d-flex justify-content-center">
+  <div class="col-lg-6 col-md-6 col-sm-10 text-center d-flex justify-content-center">
+    <h3 class="text-dark">Syarat Permohonan RE-ENTRY PERMIT Tidak Kembali</h3>
+  </div>
+</div>
+<div class="row d-flex justify-content-center text-dark">
+  <div class="col-lg-6 col-md-6 col-sm-10">
+    <div class="card-body shadow mb-5">
+      <ol type="1">
+        <li>Asli dan fotokopi paspor kebangsaan yang masih berlaku</li>
+        <li>Asli dan fotokopi KITAS</li>
+        <li>Asli dan fotokopi surat sponsor dan jaminan (ditandatangani direksi)</li>
+        <li>Asli dan fotokopi Notifikasi Perintah Pembayaran (bagi pekerja asing)</li>
+        <li>Surat kuasa bagi yang diberi kuasa</li>
+        <li>Fotokopi E-KTP sponsor</li>
+        <li>Fotokopi E-KTP pihak yang diberi kuasa</li>
+        <li>Fotokopi cap keberangkatan</li>
+        <li>Return Tiket</li>
+      </ol>
+    </div>
+  </div>
+</div>
 </section>
  <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
